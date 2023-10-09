@@ -1,5 +1,5 @@
 ﻿/*
- Some os números de 1 a 100 a imprima o valor. Feito com soma 
+ Some os números de 1 a 100 e imprima o valor.
  */
 namespace somaGauss
 {
@@ -19,17 +19,20 @@ namespace somaGauss
             Console.WriteLine($"O valor da soma de 1 a 100 é {soma}");
              */
 
-            Console.WriteLine("Entre com os valores mínimo e máximo do intervalo: ");
+            Console.WriteLine("Entre com o valor mínimo do intervalo: ");
 
-            if (!int.TryParse(Console.ReadLine(), out int valorMin))
+            int valorMin, valorMax;
+                bool deuCerto = true;
+            do
             {
-                throw new ArgumentException("Falha na tentativa de conversão de tipos.");
-            }
+                deuCerto = int.TryParse(Console.ReadLine(), out valorMin);
+            } while (!deuCerto);
 
-            if (!int.TryParse(Console.ReadLine(), out int valorMax))
+            Console.WriteLine("Entre com o valor máximo do intervalo: ");
+            do
             {
-                throw new ArgumentException("Falha na tentativa de conversão de tipos.");
-            }
+                deuCerto = int.TryParse(Console.ReadLine(), out valorMax);
+            } while (!deuCerto);
 
 
             if (valorMin > valorMax)

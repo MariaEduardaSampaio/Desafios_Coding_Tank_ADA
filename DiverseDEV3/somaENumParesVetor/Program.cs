@@ -3,7 +3,7 @@
 finalizar, mostre quantos números lidos, a soma e quantos são pares.
  */
 
-namespace NumerosPares
+namespace somaENumParesVetor
 {
     internal class Program
     {

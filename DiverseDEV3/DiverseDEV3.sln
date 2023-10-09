@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "somaElementosVetores", "somaElementosVetores\somaElementosVetores.csproj", "{4CF243DB-34D4-40E8-B72C-312E574F3D46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mediaSomaEMenor", "mediaSomaEMenor\mediaSomaEMenor.csproj", "{D9B65C98-8800-4A50-8B99-CE920C325A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "somaGauss", "somaGauss\somaGauss.csproj", "{1F34A85B-6E22-41A4-8BC2-EB80735EAF00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "somaENumParesVetor", "somaENumParesVetor\somaENumParesVetor.csproj", "{55F780DF-3DB6-4FA3-923B-A892A31AE334}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CF243DB-34D4-40E8-B72C-312E574F3D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF243DB-34D4-40E8-B72C-312E574F3D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF243DB-34D4-40E8-B72C-312E574F3D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF243DB-34D4-40E8-B72C-312E574F3D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B65C98-8800-4A50-8B99-CE920C325A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B65C98-8800-4A50-8B99-CE920C325A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B65C98-8800-4A50-8B99-CE920C325A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B65C98-8800-4A50-8B99-CE920C325A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F34A85B-6E22-41A4-8BC2-EB80735EAF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F34A85B-6E22-41A4-8BC2-EB80735EAF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F34A85B-6E22-41A4-8BC2-EB80735EAF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F34A85B-6E22-41A4-8BC2-EB80735EAF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F780DF-3DB6-4FA3-923B-A892A31AE334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F780DF-3DB6-4FA3-923B-A892A31AE334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F780DF-3DB6-4FA3-923B-A892A31AE334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F780DF-3DB6-4FA3-923B-A892A31AE334}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
