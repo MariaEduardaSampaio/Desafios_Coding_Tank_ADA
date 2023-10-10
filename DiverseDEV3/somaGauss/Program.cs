@@ -7,22 +7,11 @@ namespace somaGauss
     {
         static void Main(string[] args)
         {
-            /*
-             
-            int valorAtual = 0;
-            int soma = 0;
-            while (valorAtual < 100)
-            {
-                valorAtual++;
-                soma += valorAtual;
-            }
-            Console.WriteLine($"O valor da soma de 1 a 100 é {soma}");
-             */
+            int valorMin, valorMax;
+            bool deuCerto;
 
             Console.WriteLine("Entre com o valor mínimo do intervalo: ");
 
-            int valorMin, valorMax;
-                bool deuCerto = true;
             do
             {
                 deuCerto = int.TryParse(Console.ReadLine(), out valorMin);
